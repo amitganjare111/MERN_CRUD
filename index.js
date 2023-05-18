@@ -13,10 +13,10 @@ app.use(cors());
 app.use(route)
 
 //static files
-app.use(express.static(path.join(__dirname, './build')));
+app.use(express.static(path.join(__dirname, './front/build')));
 
 app.get('*', async (req, res) => {
-    res.sendFile(path.join(__dirname, './build/index.html'));
+    res.sendFile(path.join(__dirname, './front/build/index.html'));
 })
 
 app.listen(4041);
