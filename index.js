@@ -10,13 +10,6 @@ dotenv.config({path: './config.env'});
 const app = express();
 app.use(express.json());
 app.use(cors());
-app.use(route)
-
-//static files
-app.use(express.static(path.join(__dirname, './front/build')));
-
-app.get('*', async (req, res) => {
-    res.sendFile(path.join(__dirname, './front/build/index.html'));
-})
+app.use(route);
 
 app.listen(4041);
