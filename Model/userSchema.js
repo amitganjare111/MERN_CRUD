@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-import autoIncrement from 'mongoose-auto-increment';
 
 const userSchema = new mongoose.Schema( {
     
@@ -22,9 +21,7 @@ const userSchema = new mongoose.Schema( {
         type: String,
         required: true
     }
-})
-
-autoIncrement.initialize(mongoose.connection); 
+});
 
 const User1 = mongoose.model('MERN_CRUD_USER', userSchema);
 
