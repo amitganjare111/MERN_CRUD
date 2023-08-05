@@ -1,0 +1,78 @@
+.border{
+    box-shadow: 0px 0px 50px 0 rgba(0, 0, 0, 0.1), 0 6px 30px 0 rgba(0, 0, 0, 0.3);
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    padding: 10px 4px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    font-size: 18px;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .nav-grad {
+    background-image: linear-gradient(to right, #2b3033 0%, #206281  51%, #181d22  100%);
+    padding: 8px 4px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    display: block;
+  }
+
+  .nav-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration:none;
+  }
+
+  .header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color:#056e9e
+  }
+
+  .fixed{
+    position:relative;
+  top: 0;
+  width: 100%;
+  }
+
+ .img{
+    background-image: url('../Data/Mern.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 480px;
+    width:1060px;
+ }
+
+ .con{
+  margin-left: 150px;
+ }
+
+ body{
+  background-image: url("../Data/bgimg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bold{
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight:600
+}
+
